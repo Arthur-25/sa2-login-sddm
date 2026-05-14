@@ -27,7 +27,7 @@ Funcionalidades
 ```bash
 sudo apt update
 sudo apt install qml6-module-qtmultimedia qml6-module-qt5compat
-
+```
    
 Se tudo correr bem
 
