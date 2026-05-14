@@ -28,6 +28,15 @@ Funcionalidades
 sudo apt update
 sudo apt install qml6-module-qtmultimedia qml6-module-qt5compat
 ```
+
+## 🚀 Resolução de Problemas (Tela Preta)
+
+Se o tema não carregar as imagens ou o vídeo, ajuste as permissões da pasta:
+
+```bash
+sudo chown -R root:root /usr/share/sddm/themes/sa2-login
+sudo chmod -R 755 /usr/share/sddm/themes/sa2-login
+```
    
 Se tudo correr bem
 
