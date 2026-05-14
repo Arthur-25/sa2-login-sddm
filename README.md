@@ -21,6 +21,13 @@ Funcionalidades
    sudo cp -r sa2-login /usr/share/sddm/themes/
 4. Teste o tema
    sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sa2-login
+
+5.Para que o vídeo da intro e a Jukebox funcionem corretamente, instale as dependências do Qt6:
+
+```bash
+sudo apt update
+sudo apt install qml6-module-qtmultimedia qml6-module-qt5compat
+
    
 Se tudo correr bem
 
