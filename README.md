@@ -22,3 +22,23 @@ Funcionalidades
 4. Teste o tema
    sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sa2-login
    
+Se tudo correr bem
+
+No KDE Plasma:
+
+    Abra as Configurações do Sistema.
+
+    Vá em Inicialização e Desligamento -> Tela de Autenticação (SDDM).
+
+    Selecione o Sonic Adventure 2 Login na lista e clique em Aplicar.
+
+    Via Linha de Comando (Qualquer interface):
+
+Se o usuário não usa KDE, ele pode ativar editando o arquivo de configuração:
+
+sudo nano /etc/sddm.conf
+
+E alterar (ou adicionar) a seção:
+
+[Theme]
+Current=sa2-login
