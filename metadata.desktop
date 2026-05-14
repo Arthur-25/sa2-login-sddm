@@ -1,8 +1,0 @@
-[Appearance]
-Name=sa2-login
-Description=Way past cool!
-Author=DaveTheMiller
-Type=sddm-theme
-Version=1.0
-MainScript=Main.qml
-ConfigFile=theme.conf
